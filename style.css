@@ -1,0 +1,111 @@
+body {
+ background-color: rgb(241, 229, 215);
+}
+ 
+
+h1 {
+
+color: rgb(139, 126, 112);
+text-align: center;
+
+}
+
+
+h2{
+color: rgb(139, 126, 112);
+text-align: center; 
+
+
+}
+
+ .img-circle {
+    border-radius: 50%;
+    width: 250px;
+    
+ }
+
+ #logo {
+    width: 300px;
+    border-radius: 100%;
+
+ }
+
+ 
+ .box-design {
+ background: white;
+ margin: 0px auto;
+ padding: 30px;
+ width: 500px;
+ border-radius: 5px;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ text-align: center;
+
+ }
+
+.btn-grey { 
+background-color: lightgrey;
+ color: white;
+ padding: 15px 20px;
+ border-radius: 5px;
+ margin-top: 40px;
+ }
+
+.btn-grey:hover { 
+  background-color: black;
+  color: white;
+
+ }
+
+ .list-inline {
+ list-style: none;
+ padding-left: 0px;
+ }
+
+
+.list-inline li {
+   display: inline;
+   padding: 10px;
+}
+
+
+.list-inline i {
+   front-size:  100px;
+   color: grey;
+
+}
+
+.list-inline i: hover {
+   
+   color: black;
+
+
+} 
+.container{
+
+   width: 700px;
+   margin: 0px auto;
+}
+
+
+@media (max-width: 760px) {
+   .container {
+      width: 600px;
+   }
+
+}
+
+
+@media (max-width: 500px) {
+
+   .container {
+      width: 400px;
+   }
+}
+  
+  
+
+
+
+
+
